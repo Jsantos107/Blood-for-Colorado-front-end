@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  color: lightpink;
 }
 
 body {
   background-color: black;
+}
+
+#map {
+  height: 100%;
+
 }
