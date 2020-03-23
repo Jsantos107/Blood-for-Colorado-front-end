@@ -3,12 +3,12 @@ import './App.css';
 
 class App extends Component {
   state = {
-    location: []
+    locations: []
   }
   componentDidMount(){
-    fetch('')
+    fetch('http://localhost:3000/locations')
       .then(response => response.json())
-      .then(console.log)
+      .then(locations => this.setState({ locations }))
   }
   render(){
     return (
