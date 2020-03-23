@@ -4,7 +4,12 @@ class LocationCard extends React.Component {
   //your bot army code here...
 
   renderLocations = (locations) => {
-    return locations.map(location => {return <h2>{location.name}</h2>})
+    return locations.map(location => {
+      return (
+        <h2>{location.name}</h2>
+        
+      )
+    })
   }
 
   render(){

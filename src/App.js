@@ -21,7 +21,7 @@ class App extends Component {
         </header>
         <main className="main">
           <h1>PLACES TO DONATE</h1>
-          <SimpleMap />
+          <SimpleMap locations={this.state.locations} />
           <LocationCard locations={this.state.locations}/>
         </main>
       </div>
