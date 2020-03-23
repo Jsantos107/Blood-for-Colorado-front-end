@@ -12,11 +12,14 @@ class App extends Component {
   }
   render(){
     return (
-      <main className="App">
-        <header>
+      <div className="App">
+        <header className="header">
           <img src='./bloodlogo.png' alt='blood-for-colorado'/>
         </header>
-      </main>
+        <main className="main">
+
+        </main>
+      </div>
     );
   }
 }
