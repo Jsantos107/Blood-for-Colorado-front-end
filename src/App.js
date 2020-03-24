@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import LocationCard from './LocationCard.js'
-import SimpleMap from './SimpleMap.js'
-
+import LocationCard from './components/LocationCard.js'
+import SimpleMap from './components/SimpleMap.js'
 class App extends Component {
   state = {
     locations: []

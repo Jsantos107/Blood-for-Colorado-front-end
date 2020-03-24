@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .App {
   text-align: center;
-  color: lightpink;
+  color: rgb(192, 26, 68);
 }
 
 body {
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #map {
   height: 100%;
 
+}
+
+.locations {
+  width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+  border:2px solid #fff;
+  -moz-box-shadow: 10px 10px 5px rgb(163, 155, 163);
+  -webkit-box-shadow: 5px 5px 5px rgb(163, 155, 163);
+  /* box-shadow: 10px 10px 5px #ccc; */
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  /* border-radius:25px; */
+  /* filter: drop-shadow(5px 5px 0.75rem #6D356B); */
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.location-type {
+  font-size: 12px;
 }
